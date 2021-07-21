@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.navbar{
+    background: blueviolet;
+    text-align: center;
+}
+.navbar ul{
+    display: flex;
+    float: right;
+    list-style: none;
+}
+.navbar ul li{
+    width: 120px;
+    height: 32px;
+    text-transform: uppercase;
+    font-family: fantasy;
+    background-color: rgba(0,0,0,0.2);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 5px;
+    letter-spacing: 1px;
+    
+}
+.navbar a{
+    color: black;
+    text-decoration: none;
+    float: center;
+    padding: 12px;
+   
+}
+
+.logo{
+    font-size: 25px;
+    font-weight: bold;
+    border: 2px dotted black;
+    margin-left: 20px;
+    margin-top: 10px;
+    transition: 0.4s;
+    background: blue;
+    color: white;
+}
+.navbar a:hover{
+    background-color: blueviolet;
+    color: black;
+}
+.header{
+    padding: 150px 100px 70px 100px;
+    text-align: center;
+   
+}
+.header h1{
+    font-size: 40px;
+}
+.slider{
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+.sliderchild{
+    height: 100%;
+    width: 500%;
+    animation: slider infinite 20s;  
+}
+.imageicon{
+    height: 100%;
+    width: 20%;
+    background-color: gray;
+    float: left;
+}
+@keyframes slider{
+  18.5%{
+      margin-left: -100%;    
+  }  
+  27%{
+      margin-left: -100px;
+  }
+  39.5%{
+      margin-left: -200%;
+  }
+  52%{
+      margin-left: -200%;
+  }
+  64%{
+    margin-left: 200%;  
+  }
+  77%{
+      margin-left: -300%;
+  }
+  89.5%{
+      margin-left: -400%;
+  }
+  102%{
+      margin-left: -400%;
+  }
+}
+.row{
+    display: flex;   
+}
+.side{
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+}
+span{
+    border-bottom: 4px solid rgb(247, 136, 10);
+}
+.black-thin-image{
+    border-color: blue;
+    border-radius: 9px;
+}
+.main{
+    flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+.car{
+    font-weight: bolder;
+    font-size: 25px;
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+.pp{
+    font-size: 15px;
+    font-family: monospace;
+    font-style: italic;
+}
+.footer{
+  padding: 40px;
+  text-align: center;
+  background-color:#ddd; 
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
